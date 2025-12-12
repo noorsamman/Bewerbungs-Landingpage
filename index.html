@@ -1,112 +1,65 @@
 <!doctype html>
 <html lang="de">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Mhd Noureddin Al Samman — Bewerbung</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bewerbung — Landingpage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">Bewerbung</a>
+      <nav class="nav">
+        <a href="#about">Über mich</a>
+        <a href="#projects">Projekte</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
 
-	<header class="site-header">
-			<div class="container">
-				<div class="site-title">Mhd Noureddin Al Samman</div>
-				<p class="site-subtitle">Fachinformatiker Systemintegration (Umschulung)</p>
-				<nav aria-label="Hauptnavigation">
-					<ul class="nav">
-						<li><a href="#lebenslauf">Lebenslauf</a></li>
-						<li><a href="#skills">Fähigkeiten</a></li>
-					</ul>
-				</nav>
-			</div>
-	</header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Motivierter Softwareentwickler auf Jobsuche</h1>
+        <p class="lead">Ich entwickle moderne, wartbare Webanwendungen mit Fokus auf Nutzererlebnis und Performance.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="mailto:noorsamman33@gmail.com">E-Mail schreiben</a>
+          <a class="btn btn-secondary" href="tel:+4917682300010">Anrufen</a>
+        </div>
+      </div>
+    </section>
 
-	<main id="main" class="main-content" tabindex="-1">
-		<section class="hero container" aria-labelledby="hero-title">
-			<h2 id="hero-title" class="visually-hidden">Vorstellung</h2>
-			<div class="hero-card" role="banner">
-				<h1 class="hero-name">Mhd Noureddin Al Samman</h1>
-				<p class="hero-job">Fachinformatiker Systemintegration (Umschulung)</p>
-				<p class="lead">Motivierter Umschüler mit praktischem Verständnis für Netzwerke, Serverbetrieb und IT‑Support. Ich suche einen Einstiegsplatz im Bereich Systemintegration.</p>
-			</div>
-		</section>
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Über mich</h2>
+        <p>Ich bin Noor Samman, spezialisiert auf Frontend- und Full-Stack-Entwicklung. Ich lege Wert auf sauberen Code, zugängliche Interfaces und effiziente Zusammenarbeit.</p>
+      </div>
+    </section>
 
-		<section id="lebenslauf" class="about container" aria-labelledby="lebenslauf-title">
-		<div class="cv-content">
-			<div class="cv-image">
-				<svg viewBox="0 0 280 240" xmlns="http://www.w3.org/2000/svg" alt="Laptop mit Lebenslauf">
-					<defs>
-						<linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-							<stop offset="0%" style="stop-color:#0a3a5f;stop-opacity:1" />
-							<stop offset="100%" style="stop-color:#051f35;stop-opacity:1" />
-						</linearGradient>
-					</defs>
-					<!-- Keyboard -->
-					<rect x="30" y="145" width="220" height="70" rx="6" fill="#0a3a5f" stroke="#1fb6ff" stroke-width="2"/>
-					<!-- Keyboard keys pattern -->
-					<rect x="42" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="60" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="78" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="96" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="114" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="132" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="150" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="168" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="186" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<rect x="204" y="158" width="12" height="10" rx="1.5" fill="none" stroke="#1fb6ff" stroke-width="0.8" opacity="0.3"/>
-					<!-- Trackpad -->
-					<rect x="95" y="180" width="90" height="25" rx="3" fill="none" stroke="#1fb6ff" stroke-width="1.5" opacity="0.4"/>
-					<!-- Screen -->
-					<rect x="35" y="8" width="210" height="135" rx="10" fill="url(#screenGrad)" stroke="#1fb6ff" stroke-width="3"/>
-					<!-- Screen inner border -->
-					<rect x="45" y="18" width="190" height="115" rx="6" fill="none" stroke="#1fb6ff" stroke-width="1.5" opacity="0.5"/>
-					<!-- Screen content: Title -->
-					<text x="140" y="40" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ff3b30">Lebenslauf</text>
-					<!-- Screen content: Subtitle -->
-					<text x="140" y="58" font-family="Inter, Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1fb6ff" opacity="0.9">Fachinformatiker</text>
-					<!-- Screen content: Info lines -->
-					<line x1="55" y1="68" x2="225" y2="68" stroke="#1fb6ff" stroke-width="0.5" opacity="0.3"/>
-					<text x="60" y="82" font-family="monospace" font-size="9" fill="#1fb6ff" opacity="0.7">✓ Netzwerk</text>
-					<text x="60" y="95" font-family="monospace" font-size="9" fill="#1fb6ff" opacity="0.7">✓ Server</text>
-					<text x="60" y="108" font-family="monospace" font-size="9" fill="#1fb6ff" opacity="0.7">✓ IT-Support</text>
-					<!-- Bezel -->
-					<rect x="30" y="3" width="220" height="147" rx="12" fill="none" stroke="#0a3a5f" stroke-width="3.5"/>
-				</svg>
-			</div>
-			<div class="cv-text">
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projekte</h2>
+        <p>Eine Auswahl an Projekten, die moderne Web-Technologien, performantem CSS und klarer Architektur demonstrieren.</p>
+      </div>
+    </section>
 
-			<ul class="cv-list">
-				<li><strong>Ausbildung:</strong> Umschulung zum Fachinformatiker Systemintegration</li>
-				<li><strong>Erfahrung:</strong> Netzwerkinstallationen, Server-Basics, IT-Support</li>
-				<li><strong>Ziel:</strong> Einstieg in Infrastruktur, Systemadministration oder Support</li>
-			</ul>
-			</div>
-		</div>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <p>Schreiben Sie mir eine E-Mail oder rufen Sie mich an — ich freue mich auf Ihre Nachricht.</p>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:noorsamman33@gmail.com">noorsamman33@gmail.com</a></li>
+          <li>Telefon: <a href="tel:+4917682300010">+49 176 82300010</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-		<section id="skills" class="skills container" aria-labelledby="skills-title">
-			<h2 id="skills-title">Fähigkeiten</h2>
-			<ul class="skill-list">
-				<li>Windows & Linux Server (Grundlagen)</li>
-				<li>Netzwerkinfrastruktur (TCP/IP, DHCP, DNS)</li>
-				<li>Hardwareinstallation & Peripherie</li>
-				<li>Fehleranalyse & Anwender-Support</li>
-				<li>Grundkenntnisse in Scripting</li>
-			</ul>
-		</section>
-
-		<!-- Kontakt ist im Footer zu finden -->
-	</main>
-
-	<footer class="site-footer">
-		<div class="container">
-			<section aria-labelledby="footer-contact">
-				<h2 id="footer-contact">Kontakt</h2>
-			<p>Für Anfragen: <a href="mailto:noorsamman33@gmail.com">noorsamman33@gmail.com</a></p>
-			</section>
-			<p style="margin-top:.75rem">© Mhd Noureddin Al Samman — Fachinformatiker Systemintegration (Umschulung)</p>
-		</div>
-	</footer>
-
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Noor Samman</p>
+    </div>
+  </footer>
 </body>
 </html>
