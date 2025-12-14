@@ -1,0 +1,12 @@
+{
+  "name": "kuchen-lecker",
+  "version": "1.0.0",
+  "description": "Kuchen Website mit Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
