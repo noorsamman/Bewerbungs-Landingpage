@@ -436,6 +436,36 @@ h2 {
   border: 1px solid var(--border);
 }
 
+/* ── Language list ───────────────────────────────── */
+
+.lang-list {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+}
+
+.lang-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.lang-name { color: var(--text); font-weight: 500; }
+
+.lang-level {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: rgba(37,99,235,.08);
+  border: 1px solid rgba(37,99,235,.18);
+  padding: 0.15rem 0.55rem;
+  border-radius: 100px;
+}
+
 /* ── Contact ─────────────────────────────────────── */
 
 .contact-grid {
