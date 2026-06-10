@@ -3,15 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Bewerbung — Landingpage</title>
+  <title>Noor Samman — Softwareentwickler</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <header class="site-header">
     <div class="container">
-      <a class="logo" href="#">Bewerbung</a>
+      <a class="logo" href="#">Noor Samman</a>
       <nav class="nav">
         <a href="#about">Über mich</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projekte</a>
         <a href="#contact">Kontakt</a>
       </nav>
@@ -19,47 +24,165 @@
   </header>
 
   <main>
+
+    <!-- Hero -->
     <section class="hero">
       <div class="container">
-        <h1>Motivierter Softwareentwickler auf Jobsuche</h1>
-        <p class="lead">Ich entwickle moderne, wartbare Webanwendungen mit Fokus auf Nutzererlebnis und Performance.</p>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          Offen für neue Stellen
+        </div>
+        <h1>Motivierter<br><span>Softwareentwickler</span><br>auf Jobsuche</h1>
+        <p class="lead">Ich entwickle moderne, wartbare Webanwendungen mit Fokus auf Nutzererlebnis, sauberem Code und effizienter Zusammenarbeit.</p>
         <div class="cta">
-          <a class="btn btn-primary" href="mailto:noorsamman33@gmail.com">E-Mail schreiben</a>
-          <a class="btn btn-secondary" href="tel:+4917682300010">Anrufen</a>
+          <a class="btn btn-primary" href="mailto:noorsamman33@gmail.com">
+            ✉ E-Mail schreiben
+          </a>
+          <a class="btn btn-secondary" href="tel:+4917682300010">
+            ☎ Anrufen
+          </a>
         </div>
       </div>
     </section>
 
+    <!-- About -->
     <section id="about" class="about">
       <div class="container">
-        <h2>Über mich</h2>
-        <p>Ich bin Noor Samman, spezialisiert auf Frontend- und Full-Stack-Entwicklung. Ich lege Wert auf sauberen Code, zugängliche Interfaces und effiziente Zusammenarbeit.</p>
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="section-label">Über mich</p>
+            <h2>Wer bin ich?</h2>
+            <p>Ich bin Noor Samman, ein leidenschaftlicher Frontend- und Full-Stack-Entwickler. Ich lege großen Wert auf sauberen Code, zugängliche Interfaces und eine effiziente Zusammenarbeit im Team.</p>
+            <p>Mein Ziel ist es, digitale Produkte zu bauen, die nicht nur technisch solide sind, sondern auch Menschen wirklich begeistern und helfen.</p>
+          </div>
+          <div class="about-card">
+            <div class="stat-row">
+              <div class="stat">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Jahre Erfahrung</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Projekte</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Engagement</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">B2</span>
+                <span class="stat-label">Deutschniveau</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="projects">
+    <!-- Skills -->
+    <section id="skills">
       <div class="container">
-        <h2>Projekte</h2>
-        <p>Eine Auswahl an Projekten, die moderne Web-Technologien, performantem CSS und klarer Architektur demonstrieren.</p>
+        <p class="section-label">Kompetenzen</p>
+        <h2>Was ich kann</h2>
+        <p class="section-sub">Technologien und Methoden, mit denen ich täglich arbeite.</p>
+        <div class="skills-grid">
+          <span class="skill-tag highlight">HTML &amp; CSS</span>
+          <span class="skill-tag highlight">JavaScript</span>
+          <span class="skill-tag highlight">React</span>
+          <span class="skill-tag highlight">TypeScript</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">Git &amp; GitHub</span>
+          <span class="skill-tag">Responsive Design</span>
+          <span class="skill-tag">UI/UX-Grundlagen</span>
+          <span class="skill-tag">Agile / Scrum</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">SQL</span>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="contact">
+    <!-- Projects -->
+    <section id="projects">
       <div class="container">
-        <h2>Kontakt</h2>
-        <p>Schreiben Sie mir eine E-Mail oder rufen Sie mich an — ich freue mich auf Ihre Nachricht.</p>
-        <ul class="contact-list">
-          <li>Email: <a href="mailto:noorsamman33@gmail.com">noorsamman33@gmail.com</a></li>
-          <li>Telefon: <a href="tel:+4917682300010">+49 176 82300010</a></li>
-        </ul>
+        <p class="section-label">Projekte</p>
+        <h2>Ausgewählte Arbeiten</h2>
+        <p class="section-sub">Projekte, die moderne Technologien, performantes CSS und klare Architektur zeigen.</p>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-icon">🌐</div>
+            <h3>Bewerbungs-Landingpage</h3>
+            <p>Diese persönliche Landingpage — gebaut mit reinem HTML &amp; CSS ohne Frameworks. Fokus auf sauberem Markup, modernem Design und Performance.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">GitHub Pages</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">⚡</div>
+            <h3>Projekt 2</h3>
+            <p>Beschreibung des zweiten Projekts. Hier können Sie Ihre Leistungen und eingesetzten Technologien kurz vorstellen.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">TypeScript</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">🛠</div>
+            <h3>Projekt 3</h3>
+            <p>Beschreibung des dritten Projekts. Zeigen Sie, was Sie entwickelt haben und welchen Mehrwert es bietet.</p>
+            <div class="project-tags">
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">REST API</span>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <p class="section-label">Kontakt</p>
+        <h2>Lassen Sie uns sprechen</h2>
+        <p class="section-sub">Ich freue mich auf Ihre Nachricht — egal ob per E-Mail oder Telefon.</p>
+        <div class="contact-grid">
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:noorsamman33@gmail.com">
+              <div class="contact-link-icon email">✉</div>
+              <div>
+                noorsamman33@gmail.com
+                <span>E-Mail</span>
+              </div>
+            </a>
+            <a class="contact-link" href="tel:+4917682300010">
+              <div class="contact-link-icon phone">☎</div>
+              <div>
+                +49 176 82300010
+                <span>Telefon</span>
+              </div>
+            </a>
+          </div>
+          <div class="contact-note">
+            <p>Ich bin aktuell offen für neue Stellen und Freelance-Projekte. Antwortzeit in der Regel unter 24 Stunden.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container">
       <p>&copy; 2025 Noor Samman</p>
+      <p>Softwareentwickler · Deutschland</p>
     </div>
   </footer>
+
 </body>
 </html>
