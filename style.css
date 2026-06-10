@@ -308,6 +308,62 @@ h2 {
 
 /* ── Projects ────────────────────────────────────── */
 
+.project-featured {
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #f0f5ff 0%, #faf5ff 100%);
+  border-color: rgba(37,99,235,.2);
+}
+
+.project-featured h3 {
+  font-size: 1.25rem;
+}
+
+.project-featured-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.1rem;
+}
+
+.project-featured-header .project-icon {
+  margin-bottom: 0;
+}
+
+.project-featured-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #fff;
+  padding: 0.25rem 0.7rem;
+  border-radius: 100px;
+}
+
+.project-tasks {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.project-tasks li {
+  font-size: 0.875rem;
+  color: var(--muted);
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.project-tasks li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-size: 0.8rem;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
