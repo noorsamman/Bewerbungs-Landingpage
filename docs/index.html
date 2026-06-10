@@ -3,39 +3,262 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Bewerbungs Landingpage</title>
+  <title>Noor Samman — Fachinformatiker für Systemintegration</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-    <h1>Willkommen zu meiner Bewerbungs-Landingpage</h1>
-    <p>Dies ist eine einfache statische Seite, bereitgestellt über GitHub Pages.</p>
-    <a class="cta" href="#kontakt">Kontakt</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">Noor Samman</a>
+      <nav class="nav">
+        <a href="#about">Über mich</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projekte</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
-    <section id="about">
-      <h2>Über mich</h2>
-      <p>Ich bin Bewerber/in mit Erfahrung in Webentwicklung. Diese Landingpage dient als Beispielprojekt und als Einstieg in mein Portfolio.</p>
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          Offen für neue Stellen
+        </div>
+        <h1>Angehender<br><span>Fachinformatiker</span><br>für Systemintegration</h1>
+        <p class="lead">Schwerpunkte auf Cloud-Infrastruktur, Netzwerke und KI-Automatisierung. Ich baue praxisnahe Lösungen mit modernen Tools und bringe dabei Eigeninitiative und schnelle Auffassungsgabe mit.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="mailto:noorsamman33@gmail.com">
+            ✉ E-Mail schreiben
+          </a>
+          <a class="btn btn-secondary" href="tel:+4917682300010">
+            ☎ Anrufen
+          </a>
+        </div>
+      </div>
     </section>
 
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="section-label">Über mich</p>
+            <h2>Wer bin ich?</h2>
+            <p>Angehender Fachinformatiker für Systemintegration mit Schwerpunkt auf Cloud-Technologien, Automatisierung und KI-Lösungen.</p>
+            <p>Seit August 2025 erweitere ich meine praktischen Kenntnisse durch eigene Projekte in den Bereichen Linux, Netzwerke, Server und künstliche Intelligenz.</p>
+          </div>
+          <div class="about-card">
+            <div class="stat-row">
+              <div class="stat">
+                <span class="stat-number">08/2025</span>
+                <span class="stat-label">IT-Umschulung gestartet</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Projekte umgesetzt</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number small">DE · EN<br>AR</span>
+                <span class="stat-label">C1 · C1 · Muttersprache</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number small">Linux<br>Cloud · KI</span>
+                <span class="stat-label">Schwerpunkte</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
     <section id="skills">
-      <h2>Kompetenzen</h2>
-      <ul>
-        <li>HTML &amp; CSS</li>
-        <li>JavaScript</li>
-        <li>Responsive Design</li>
-      </ul>
+      <div class="container">
+        <p class="section-label">Kompetenzen</p>
+        <h2>Was ich kann</h2>
+        <p class="section-sub">Technologien und Methoden, mit denen ich täglich arbeite.</p>
+        <div class="skills-grid">
+          <span class="skill-tag highlight">n8n Automation</span>
+          <span class="skill-tag highlight">KI-Integration</span>
+          <span class="skill-tag highlight">Linux Administration</span>
+          <span class="skill-tag highlight">HTML &amp; CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Git &amp; GitHub</span>
+          <span class="skill-tag">SSH &amp; Netzwerk</span>
+          <span class="skill-tag">Windows Server</span>
+          <span class="skill-tag">Active Directory</span>
+          <span class="skill-tag">PowerShell</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">Oracle Cloud</span>
+        </div>
+      </div>
     </section>
 
-    <section id="kontakt">
-      <h2>Kontakt</h2>
-      <p>Schreib mir eine E-Mail an: <a href="mailto:deine-email@example.com">deine-email@example.com</a></p>
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <p class="section-label">Projekte</p>
+        <h2>Ausgewählte Arbeiten</h2>
+        <p class="section-sub">Vier echte Projekte — von KI-Automatisierung über Cloud-Infrastruktur bis zur Webentwicklung.</p>
+
+        <!-- Featured project -->
+        <div class="project-card project-featured">
+          <div class="project-featured-header">
+            <div class="project-icon">🤖</div>
+            <span class="project-featured-badge">Hauptprojekt</span>
+          </div>
+          <h3>AI Secretary Platform</h3>
+          <p>Entwicklung eines intelligenten KI-Assistenten mit Telegram-Anbindung. Der Assistent verarbeitet Nachrichten, speichert Informationen, verwaltet Termine und erzeugt automatisierte Antworten — vollständig über n8n-Workflows orchestriert.</p>
+          <ul class="project-tasks">
+            <li>Einrichtung und Konfiguration von n8n Workflows</li>
+            <li>Integration von KI-Modellen über OpenRouter</li>
+            <li>Datenbankanbindung für Langzeitspeicher</li>
+            <li>Automatisierung wiederkehrender Prozesse</li>
+          </ul>
+          <div class="project-tags">
+            <span class="project-tag">n8n</span>
+            <span class="project-tag">OpenRouter</span>
+            <span class="project-tag">Telegram API</span>
+            <span class="project-tag">PostgreSQL</span>
+            <span class="project-tag">AI</span>
+          </div>
+        </div>
+
+        <!-- Secondary projects -->
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-icon">☁️</div>
+            <h3>Cloud &amp; Server Infrastructure</h3>
+            <p>Aufbau und Verwaltung einer Cloud-Umgebung für Automatisierungs- und KI-Projekte. Einrichtung von Servern, sicheren Verbindungen und Entwicklungsumgebungen.</p>
+            <ul class="project-tasks">
+              <li>Linux Server Administration</li>
+              <li>SSH-Konfiguration &amp; Absicherung</li>
+              <li>Git &amp; GitHub Deployment</li>
+              <li>Container-Management mit Docker</li>
+            </ul>
+            <div class="project-tags">
+              <span class="project-tag">Linux</span>
+              <span class="project-tag">Oracle Cloud</span>
+              <span class="project-tag">SSH</span>
+              <span class="project-tag">Docker</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">🌐</div>
+            <h3>Windows Server Netzwerk-Labor</h3>
+            <p>Planung und Aufbau einer Testumgebung mit Active Directory, DNS und DHCP zur Simulation einer realen Unternehmensumgebung.</p>
+            <ul class="project-tasks">
+              <li>Benutzer- und Gruppenverwaltung</li>
+              <li>DHCP- und DNS-Konfiguration</li>
+              <li>Netzwerkdiagnose mit Ping &amp; Tracert</li>
+              <li>PowerShell-Automatisierung</li>
+            </ul>
+            <div class="project-tags">
+              <span class="project-tag">Windows Server</span>
+              <span class="project-tag">Active Directory</span>
+              <span class="project-tag">DNS</span>
+              <span class="project-tag">PowerShell</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">💼</div>
+            <h3>Portfolio-Webseite</h3>
+            <p>Entwicklung einer modernen Portfolio-Website zur Präsentation von Projekten, Fähigkeiten und Kontaktdaten — ohne Frameworks, reines HTML &amp; CSS.</p>
+            <ul class="project-tasks">
+              <li>Responsives Webdesign</li>
+              <li>Strukturierung und Inhaltspflege</li>
+              <li>Veröffentlichung über GitHub Pages</li>
+            </ul>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">GitHub Pages</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <p class="section-label">Kontakt</p>
+        <h2>Lassen Sie uns sprechen</h2>
+        <p class="section-sub">Ich freue mich auf Ihre Nachricht — egal ob per E-Mail oder Telefon.</p>
+        <div class="contact-grid">
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:noorsamman33@gmail.com">
+              <div class="contact-link-icon email">✉</div>
+              <div>
+                noorsamman33@gmail.com
+                <span>E-Mail</span>
+              </div>
+            </a>
+            <a class="contact-link" href="tel:+4917682300010">
+              <div class="contact-link-icon phone">☎</div>
+              <div>
+                +49 176 82300010
+                <span>Telefon</span>
+              </div>
+            </a>
+            <a class="contact-link" href="https://github.com/noorsamman" target="_blank" rel="noopener">
+              <div class="contact-link-icon github">⌥</div>
+              <div>
+                github.com/noorsamman
+                <span>GitHub</span>
+              </div>
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/mhd-noureddin-al-samman-b71182382" target="_blank" rel="noopener">
+              <div class="contact-link-icon linkedin">in</div>
+              <div>
+                Mhd Noureddin Al Samman
+                <span>LinkedIn</span>
+              </div>
+            </a>
+          </div>
+          <div class="contact-note">
+            <p>Ich bin aktuell offen für neue Stellen und Freelance-Projekte. Antwortzeit in der Regel unter 24 Stunden.</p>
+            <div class="lang-list">
+              <div class="lang-item">
+                <span class="lang-name">Deutsch</span>
+                <span class="lang-level">C1</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">Englisch</span>
+                <span class="lang-level">C1</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">Arabisch</span>
+                <span class="lang-level">Muttersprache</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <p>© 2025 Dein Name</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Noor Samman</p>
+      <p>Softwareentwickler · Deutschland</p>
+    </div>
   </footer>
+
 </body>
 </html>
