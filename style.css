@@ -260,10 +260,16 @@ h2 {
   font-size: 1.8rem;
   font-weight: 800;
   letter-spacing: -0.03em;
+  line-height: 1.2;
   background: linear-gradient(135deg, var(--primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.stat-number.small {
+  font-size: 1rem;
+  letter-spacing: 0;
 }
 
 .stat-label {
