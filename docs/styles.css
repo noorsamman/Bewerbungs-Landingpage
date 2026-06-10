@@ -509,8 +509,9 @@ h2 {
   flex-shrink: 0;
 }
 
-.contact-link-icon.email { background: rgba(37,99,235,.1); }
-.contact-link-icon.phone { background: rgba(34,197,94,.1); }
+.contact-link-icon.email  { background: rgba(37,99,235,.1); }
+.contact-link-icon.phone  { background: rgba(34,197,94,.1); }
+.contact-link-icon.github { background: rgba(15,23,42,.07); }
 
 .contact-link span { font-size: 0.82rem; color: var(--muted); display: block; }
 
