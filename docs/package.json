@@ -1,7 +1,7 @@
 {
-  "name": "kuchen-lecker",
+  "name": "bewerbung-landingpage",
   "version": "1.0.0",
-  "description": "Kuchen Website mit Node.js",
+  "description": "Bewerbungs-Landingpage von Noor Samman",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

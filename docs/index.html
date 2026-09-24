@@ -3,39 +3,105 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Bewerbungs Landingpage</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Noor Samman – Softwareentwickler</title>
+  <meta name="description" content="Noor Samman – Softwareentwickler (C#, .NET, HTML, CSS). Projekte, Kenntnisse und Kontakt.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <h1>Willkommen zu meiner Bewerbungs-Landingpage</h1>
-    <p>Dies ist eine einfache statische Seite, bereitgestellt über GitHub Pages.</p>
-    <a class="cta" href="#kontakt">Kontakt</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#top">Noor Samman</a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="#about">Über mich</a>
+        <a href="#skills">Kenntnisse</a>
+        <a href="#projects">Projekte</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
-    <section id="about">
-      <h2>Über mich</h2>
-      <p>Ich bin Bewerber/in mit Erfahrung in Webentwicklung. Diese Landingpage dient als Beispielprojekt und als Einstieg in mein Portfolio.</p>
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Softwareentwickler · C# / .NET · Web</p>
+        <h1>Hallo, ich bin Noor Samman.</h1>
+        <p class="lead">Ich entwickle strukturierte, wartbare Anwendungen – von C#-Programmen mit sauberer Objektorientierung bis zu responsiven Webseiten. Aktuell suche ich eine neue Herausforderung.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="mailto:noorsamman33@gmail.com">E-Mail schreiben</a>
+          <a class="btn btn-secondary" href="#projects">Projekte ansehen</a>
+        </div>
+      </div>
     </section>
 
-    <section id="skills">
-      <h2>Kompetenzen</h2>
-      <ul>
-        <li>HTML &amp; CSS</li>
-        <li>JavaScript</li>
-        <li>Responsive Design</li>
-      </ul>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Über mich</h2>
+        <p>Ich bin spezialisiert auf C#-Entwicklung und Frontend-Grundlagen. Mir sind sauberer Code, verständliche Strukturen und gute Zusammenarbeit im Team wichtig. Ich lerne schnell, arbeite gerne mit Git und setze Aufgaben eigenständig und zuverlässig um.</p>
+      </div>
     </section>
 
-    <section id="kontakt">
-      <h2>Kontakt</h2>
-      <p>Schreib mir eine E-Mail an: <a href="mailto:deine-email@example.com">deine-email@example.com</a></p>
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Kenntnisse</h2>
+        <ul class="skills">
+          <li>C#</li>
+          <li>.NET</li>
+          <li>Objektorientierung</li>
+          <li>Interfaces &amp; Services</li>
+          <li>JSON</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Responsive Design</li>
+          <li>Git &amp; GitHub</li>
+          <li>Scrum</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projekte</h2>
+        <p class="section-intro">Eine Auswahl meiner Projekte – der Quellcode ist auf GitHub.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>KaufAuto – Autoverwaltung</h3>
+            <p>Konsolenanwendung zum Verwalten von Fahrzeugen (PKW, SUV, Transporter): hinzufügen, bearbeiten, löschen, suchen, sortieren und auswerten. Daten werden als JSON gespeichert.</p>
+            <ul class="tags"><li>C#</li><li>OOP &amp; Vererbung</li><li>Interfaces</li><li>JSON</li></ul>
+            <a class="project-link" href="https://github.com/noorsamman/KaufAuto">Code auf GitHub →</a>
+          </article>
+          <article class="project-card">
+            <h3>Tamaras Küche – Webseite</h3>
+            <p>Responsive Webseite für eine private Konditorei mit Bildergalerie und Rezeptseite. Eigenes Farbkonzept, Grid-Layout und mobile Optimierung.</p>
+            <ul class="tags"><li>HTML5</li><li>CSS3</li><li>CSS Grid</li><li>Responsive</li></ul>
+            <a class="project-link" href="https://github.com/noorsamman/kuchen-lecker">Code auf GitHub →</a>
+          </article>
+          <article class="project-card">
+            <h3>Parkhaus – Kommando-Tool</h3>
+            <p>Interaktives Konsolenprogramm zur Verwaltung eines Parkhauses mit eigenen Befehlen (add, list, help, exit) und Fahrzeugobjekten.</p>
+            <ul class="tags"><li>C#</li><li>Klassen</li><li>Listen</li></ul>
+            <a class="project-link" href="https://github.com/noorsamman33-sudo/Parkhaus2">Code auf GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <p>Schreiben Sie mir eine E-Mail oder rufen Sie mich an – ich freue mich auf Ihre Nachricht.</p>
+        <ul class="contact-list">
+          <li>E-Mail: <a href="mailto:noorsamman33@gmail.com">noorsamman33@gmail.com</a></li>
+          <li>Telefon: <a href="tel:"></a></li>
+          <li>GitHub: <a href="https://github.com/noorsamman">github.com/noorsamman</a></li>
+        </ul>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 Dein Name</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Noor Samman</p>
+    </div>
   </footer>
 </body>
 </html>
