@@ -173,7 +173,7 @@ h2{
 }
 .contact-list li{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid var(--border);padding-bottom:1rem}
 .contact-list li:last-child{border-bottom:0;padding-bottom:0}
-.contact-list a{color:var(--text);text-decoration:none;font-weight:500}
+.contact-list a,.contact-list .value{color:var(--text);text-decoration:none;font-weight:500}
 .contact-list a:hover{color:var(--gold-light)}
 
 .site-footer{
