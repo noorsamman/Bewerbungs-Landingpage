@@ -94,6 +94,46 @@ h2{font-size:1.5rem;margin:0 0 .75rem;color:var(--color-primary)}
 .project-link{margin-top:auto;color:var(--color-primary);font-weight:600;text-decoration:none}
 .project-link:hover{text-decoration:underline}
 
+/* Hinweis-Badge im Hero */
+.badge{
+  display:inline-block;margin:0 0 1rem;padding:.35rem .9rem;border-radius:999px;
+  background:#dcfce7;color:#166534;font-weight:600;font-size:.9rem;
+}
+.badge::before{content:"";display:inline-block;width:.5rem;height:.5rem;border-radius:50%;background:#16a34a;margin-right:.5rem;vertical-align:middle}
+
+/* Sprachen */
+.languages{list-style:none;padding:0;margin:1.25rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;color:var(--muted)}
+.languages strong{color:var(--text);margin-right:.35rem}
+
+/* IT-Kenntnisse mit Balken */
+.skill-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:.75rem 2rem}
+.skill-list li{
+  display:grid;grid-template-columns:1fr auto;gap:.15rem 1rem;align-items:center;
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.8rem 1rem;
+}
+.skill-name{font-weight:600}
+.skill-detail{grid-column:1;color:var(--muted);font-size:.875rem}
+.meter{grid-column:2;grid-row:1 / span 2;width:90px;height:8px;border-radius:999px;background:#e5e7eb;overflow:hidden}
+.meter i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--color-primary),var(--color-accent))}
+.subhead{font-size:1.05rem;margin:2rem 0 .75rem}
+
+/* Projekte ohne Link */
+.project-note{margin-top:auto;color:var(--muted);font-size:.875rem;font-weight:600}
+
+/* Werdegang als Zeitleiste */
+.timeline{list-style:none;padding:0;margin:0;border-left:2px solid var(--border);margin-left:.4rem}
+.timeline li{position:relative;display:grid;grid-template-columns:10rem 1fr;gap:1rem;padding:0 0 1.5rem 1.5rem}
+.timeline li::before{
+  content:"";position:absolute;left:-.45rem;top:.35rem;width:.8rem;height:.8rem;border-radius:50%;
+  background:var(--surface);border:2px solid var(--color-primary);
+}
+.timeline li:first-child::before{background:var(--color-primary)}
+.timeline .time{color:var(--color-secondary);font-weight:600;font-size:.9rem;padding-top:.1rem}
+.timeline h3{margin:0;font-size:1rem}
+.timeline .where{margin:.15rem 0 0;color:var(--muted);font-size:.9rem}
+.timeline .where + p{margin:.4rem 0 0;font-size:.95rem}
+.more-stations{color:var(--muted);font-size:.9rem;margin-top:.5rem}
+
 /* Kontakt */
 .contact-list{list-style:none;padding:0;margin:0;color:var(--muted)}
 .contact-list li{margin:.4rem 0}
@@ -115,4 +155,6 @@ a:focus-visible{outline:3px solid var(--color-accent);outline-offset:3px;border-
   .site-header .container{flex-direction:column;align-items:flex-start;gap:.5rem}
   .hero{padding:3rem 0 2rem}
   h1{font-size:1.875rem}
+  .timeline li{grid-template-columns:1fr;gap:.25rem}
+  .skill-list{grid-template-columns:1fr}
 }
